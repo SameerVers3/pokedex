@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+  position: relative;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+}
+
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.all-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0px 50px;
+}
+
+.card-container{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  gap: 3px;
+  width: 250px;
+  height: 350px;
+  box-shadow: 5px 5px 15px #dadada;
+  padding-bottom: 10px;
+  transition: transform 200ms;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.load-more{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #000;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.load-more:hover{
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 15px #cccccc;
+}
+.img-container{
+  width: 230px;
+  height: 250px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.img-container img{
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card-container:hover{
+  transform: translate(-4px, -3px);
+  box-shadow: 5px 5px 15px #cccccc;
+}
+
+.number{
+  position: relative;
+  top: -80px;
+  font-size: 30px;
+  font-family: 'Tektur', cursive;
+  color: #00000028;
+}
+
+.details{
+  text-transform: capitalize;
+}
+
+.details h3{
+  font-size: 20px;
+}
+
+.favourite{
+  position: relative;
+  top: 15px;
+  left: 95px;
+  height: 0px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+.favourite:hover{
+  color: #ffe600;
+}

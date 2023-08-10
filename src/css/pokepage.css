@@ -1,0 +1,223 @@
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.pokePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+}
+
+.id{
+  position: relative;
+  top: -60px;
+  font-size: 30px;
+  font-family: 'Tektur', cursive;
+  color: #000000;
+}
+
+.det h3{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+  .normal{
+    background: linear-gradient(180deg, #a8a878, #ffffff00);
+  }
+  
+  .grass{
+    background: linear-gradient(180deg, #78c850, #fff);
+  }
+  
+  .fire{
+    background: linear-gradient(180deg, #f08030, #ffffff00);
+  }
+  
+  .fighting{
+    background: linear-gradient(180deg, #c03028, #ffffff00);
+  }
+  
+  .water{
+    background: linear-gradient(180deg, #6890f0, #ffffff00);
+  }
+  
+  .flying{
+    background: linear-gradient(180deg, #a890f0, #ffffff00);
+  }
+  
+  .poison{
+    background: linear-gradient(180deg, #a040a0, #ffffff00);
+  }
+  
+  .electric{
+    background: linear-gradient(180deg, #f8d030, #ffffff00);
+  }
+  
+  .ground{
+    background: linear-gradient(180deg, #e0c068, #ffffff00);
+  }
+  
+  .psychic{
+    background: linear-gradient(180deg, #f85888, #ffffff00);
+  }
+  
+  .ice{
+    background: linear-gradient(180deg, #98d8d8, #ffffff00);
+  }
+  
+  .bug{
+    background: linear-gradient(180deg, #a8b820, #ffffff00);
+  }
+  
+  .bug{
+    background: linear-gradient(180deg, #7038f8, #ffffff00);
+  }
+  
+  .ghost{
+    background: linear-gradient(180deg, #705898, #ffffff00);
+  }
+  
+  .dark{
+    background: linear-gradient(180deg, #705848, #ffffff00);
+  }
+  
+  .steel{
+    background: linear-gradient(180deg, #b8b8d0, #ffffff00);
+  }
+  
+  .fairy{
+    background: linear-gradient(180deg, #ee99ac, #ffffff00);
+  }
+
+
+.img-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 330px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.pokemon-image{
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card-cont{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 470px;
+  padding-bottom: 10px;
+}
+
+.t{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bio{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  gap: 5px;
+  width: 350px;
+  background-color: #a1a1a115;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bio h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.stats h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.desc{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stats{
+  background-color: #a1a1a115;
+  width: 350px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stats h2{
+  font-size: 20px;
+  width: 100%;
+  text-align: start;
+}
+
+td {
+  padding: 5px;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+tr{
+  padding-block: 2px;
+}
+
+.evolution-chain{
+  width: 700px;
+  height: 350px;
+  background-color: #a1a1a115;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.training{
+  background-color: #a1a1a115;
+  width: 350px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.training h2{
+  font-size: 20px;
+  width: 100%;
+  text-align: start;
+}
+
+.t-stat{
+  width: 100%;
+  margin-top: 15px
+}

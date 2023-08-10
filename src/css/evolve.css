@@ -1,0 +1,114 @@
+.evolve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.evolve-box{
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+    background: linear-gradient(170deg, #ffffff9f, #00000036);
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px #0300004f;
+    cursor: pointer;
+}
+
+.evolve-box:hover{
+    box-shadow: 3px 5px 10px #0000006c;
+}
+
+.evolve-img{
+    width: 135px;
+}
+
+.evolve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.evolve h3{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+.ev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.normal{
+    background: linear-gradient(180deg, #a8a878, #ffffff00);
+  }
+  
+  .grass{
+    background: linear-gradient(180deg, #78c850, #fff);
+  }
+  
+  .fire{
+    background: linear-gradient(180deg, #f08030, #ffffff00);
+  }
+  
+  .fighting{
+    background: linear-gradient(180deg, #c03028, #ffffff00);
+  }
+  
+  .water{
+    background: linear-gradient(180deg, #6890f0, #ffffff00);
+  }
+  
+  .flying{
+    background: linear-gradient(180deg, #a890f0, #ffffff00);
+  }
+  
+  .poison{
+    background: linear-gradient(180deg, #a040a0, #ffffff00);
+  }
+  
+  .electric{
+    background: linear-gradient(180deg, #f8d030, #ffffff00);
+  }
+  
+  .ground{
+    background: linear-gradient(180deg, #e0c068, #ffffff00);
+  }
+  
+  .psychic{
+    background: linear-gradient(180deg, #f85888, #ffffff00);
+  }
+  
+  .ice{
+    background: linear-gradient(180deg, #98d8d8, #ffffff00);
+  }
+  
+  .bug{
+    background: linear-gradient(180deg, #a8b820, #ffffff00);
+  }
+  
+  .bug{
+    background: linear-gradient(180deg, #7038f8, #ffffff00);
+  }
+  
+  .ghost{
+    background: linear-gradient(180deg, #705898, #ffffff00);
+  }
+  
+  .dark{
+    background: linear-gradient(180deg, #705848, #ffffff00);
+  }
+  
+  .steel{
+    background: linear-gradient(180deg, #b8b8d0, #ffffff00);
+  }
+  
+  .fairy{
+    background: linear-gradient(180deg, #ee99ac, #ffffff00);
+  }
+

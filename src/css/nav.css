@@ -1,0 +1,92 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+
+.nav{
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    height: 8vh;
+}
+
+.logo{
+    font-family: "Pokemon", 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #ffcb05;
+    text-shadow: -3px 0  #2a75bb, 0 3px  #2a75bb, 3px 0  #2a75bb, 0 -3px  #2a75bb;
+    letter-spacing: 4px;
+}
+
+.content{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.sign-btn{
+    border: none;
+    padding: 6px 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.sign-btn:hover{
+    background-color: #ffcb05;
+    cursor: pointer;
+}
+
+.content ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: #ffcb05;
+}
+
+/* .user-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+.user-image img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.nav-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-out{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+.sign-out:hover{
+    color: #ee241d;
+}
